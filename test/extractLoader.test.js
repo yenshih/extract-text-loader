@@ -121,8 +121,8 @@ describe("extractLoader", () => {
 
             expect(dependencies.sort()).to.eql(
                 [
-                    "/node_modules/css-loader/lib/css-base.js",
-                    "/node_modules/css-loader/lib/url/escape.js",
+                    "/node_modules/css-loader/dist/runtime/api.js",
+                    "/node_modules/css-loader/dist/runtime/url-escape.js",
                     "/test/modules/hi.jpg",
                     "/test/modules/img.css",
                     "/test/modules/stylesheet.html",
